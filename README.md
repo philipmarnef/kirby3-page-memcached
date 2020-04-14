@@ -7,7 +7,7 @@
 [![Maintainability](https://flat.badgen.net/codeclimate/maintainability/bnomei/kirby3-page-memcached)](https://codeclimate.com/github/bnomei/kirby3-page-memcached) 
 [![Twitter](https://flat.badgen.net/badge/twitter/bnomei?color=66d9ef)](https://twitter.com/bnomei)
 
-Kirby 3 Plugin to cache the content file using the PHP Memcached extension
+Kirby 3 Plugin to cache the content file using the PHP Memcached extension. This does not cache the rendered output (like Kirby's standard cache options) but the content file itself. This might be useful if you work with custom or large page collections, for instance in a headless setup.
 
 ## Commercial Usage
 
